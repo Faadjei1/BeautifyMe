@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+<div class = "body1" style="background-image: url({{url_for('static',filename='images/you.jpg') }}); opacity: 2;">
+    <form action="/login" method="post">
+    <div class="login">
+        <nav>
+            <button><a href="/register">register</a></a></button>
+            
+        </nav>
+    </div>
+    <br></br>
+        <div class="login">
+            <input autocomplete="off" id="email" name="email" placeholder="Email" type="text">
+        </div>
+        <br></br>
+        <div class="password1">
+
+                <input  id="password" name="password" placeholder="Password" type="password">
+        </div>
+        <br></br>
+        <button class="login" type="submit">Log In</button>
+    </form>
+    <br></br>
+    <p class="f-page">beautify_me:)</p>
+</div>
+
+{% endblock %}

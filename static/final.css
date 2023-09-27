@@ -1,0 +1,248 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+
+.body1 {
+        background-position: center;
+        background-size: cover;
+        height: auto;
+        min-height: 100%;
+        top: 0;
+        position: absolute;
+        left: 0;
+        min-width: 1024px;
+        width: 100%;
+      }
+
+.f-page{
+    font-style: italic;
+    font-size: 110px;
+    font-weight: bold;
+    color: #A52A2A;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+}
+/* welcome... */
+section {
+    margin-top: 17rem;
+    font-style: italic;
+    font-size: 110px;
+    font-weight: 1000;
+    property: value;
+    color: #D2691E;
+    /* text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+      0px 0px 20px #b393d3; */
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+/* navigation bar */
+#NavBar{
+    position: fixed;
+    width: 250px;
+    right: -250px;
+    height: 100vh;
+    background: #E9967A;
+    top: 0;
+    z-index: 2;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+
+
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* menu button style */
+#TheMenu {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    border-radius: 3px;
+    top: 20px;
+    right: 30px;
+    text-align: center;
+    cursor: pointer;
+    background: #E9967A;
+    z-index: 3;
+}
+
+/* menu button's design */
+#TheMenu img{
+    width: 20px;
+    margin: 15px;
+}
+
+/* about nav */
+.About{
+    margin-left: 100px;
+    font-size:28px;
+    text-align: justify;
+    text-justify: inter-word;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+           0px 0px 20px #b393d3;
+    color: #000000;
+    font-weight: 100;
+    margin-top: 5rem;
+    font-family: Kalam;
+    /* font-weight: bold; */
+}
+
+.items{
+    background-color: #E9967A;
+}
+
+
+.thanks{
+    font-size: 40px;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+           0px 0px 20px #b393d3;
+    font-family: Kalam;
+    margin-left: 150px;
+}
+
+
+.phone{
+    font-size:45px;
+    text-align: center;
+}
+
+.mapwords{
+    font-size:25px;
+    text-align: center;
+    font-family: Pacifico;
+}
+.email{
+    font-size:45px;
+    text-align: center;
+
+}
+
+.loc{
+    font-size: 45px;
+
+}
+
+.parent{
+    display:flex;
+    gap: 5px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+.contact1{
+    display:flex;
+    gap: 60px;
+    width: 30px;
+}
+
+.regards{
+    margin-bottom: 0px;
+    font-size:50px;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+    text-align: center;
+    font-family: Pacifico;
+}
+
+.login{
+  align: left;
+  background-color: #DC143C;
+  padding: 14px 20px;
+  margin: 8px 0;
+
+  cursor: pointer;
+  width: 100%;
+ box-sizing: border-box;
+}
+
+.password1{
+    align: center;
+    background-color:#DC143C;
+
+    padding: 14px 20px;
+    margin: 8px 0;
+
+    cursor: pointer;
+    width: 100%;
+
+   box-sizing: border-box;
+}
+
+.signin1{
+    align: left;
+    background-color: #D2691E;
+    padding: 14px 20px;
+    margin: 8px 0;
+}
+
+.signin2{
+    align: left;
+    background-color: #FF7F50;
+    padding: 14px 20px;
+    margin: 8px 0;
+}
+
+.submit1{
+  align: left;
+  background-color: #FF7F50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+ box-sizing: border-box;
+}
+
+.password{
+    align: center;
+    background-color:#FF7F50;
+
+    padding: 14px 20px;
+    margin: 8px 0;
+
+    cursor: pointer;
+    width: 100%;
+
+   box-sizing: border-box;
+}
+.password2{
+    align: center;
+    background-color:#D2691E;
+
+    padding: 14px 20px;
+    margin: 8px 0;
+
+    cursor: pointer;
+    width: 100%;
+
+   box-sizing: border-box;
+}
+
+
+.submit{
+    align: left;
+    background-color: #D2691E;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+   box-sizing: border-box;
+  }

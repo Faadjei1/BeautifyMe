@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+   <div class = "body1" style="background-image: url({{url_for('static',filename='images/second.jpeg') }}); opacity: 2;">
+    <form action="/register" method="post">
+        <div class="signin1">
+            <input autocomplete="off" id="name" name="name" placeholder="Name" type="text">
+        </div>
+        <div class="signin2" >
+            <input autocomplete="off" id="email" name="email" placeholder="Email" type="text">
+        </div>
+        <div class="password2">
+            <input  id="password" name="password" placeholder="Password" type="password">
+        </div>
+        <div class="password">
+            <input  id="confirmation" name="confirmation" placeholder="Password (again)" type="password">
+        </div>
+        <button class="submit" type="submit">Register</button>
+    </form>
+</div>
+{% endblock %}
